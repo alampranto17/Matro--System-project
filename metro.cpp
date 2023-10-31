@@ -33,7 +33,8 @@ class p1
             stationlist();
             break;
             case 2:
-
+                timetable();
+                break;
             case 3:
 
             bookingsystem();
@@ -78,7 +79,7 @@ void p1::timetable()
      cout<<"_________________________________________WELLCOME TO DHAKA METRO TIMETABLE______________________________________________________"<<endl;
    cout<<"FREQUENCY TO TRAIN : 10 MINITES"<<endl;
    cout<<"OFF PACK FREQUENCY : 15 MINITES"<<endl;
-   cout<<"SERVICE TIME  : 8 am (morning) TO 8pm (night)\nEEKLY OFF : FRIDAY"<<endl;
+   cout<<"SERVICE TIME  : 8 am (morning) TO 8pm (night)\n OFF DAY : FRIDAY"<<endl;
    cout<<"STATION STOPPING TIME  : 30 SECOUND"<<endl;
    cout<<"TRAVEL TIME FROM UTTARA NORTH TO FARMGATE : 45 MINITES"<<endl;
       int  a;
